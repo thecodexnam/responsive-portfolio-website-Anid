@@ -183,18 +183,23 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: linear-gradient(
+
+  background: linear-gradient(
     180deg,
     var(--body-color) 60%,
     hsla(240, 100%, 2%, 0) 100%
   );
+
   z-index: var(--z-fixed);
 }
 
+
 .header .blob-animate {
+  position: absolute;
   top: -3rem;
   left: -3rem;
 }
+
 
 .nav {
   display: flex;
@@ -508,7 +513,7 @@ img {
   }
 
 .home__social-link{
-  font-size:var(--normal-font-size) ;
+  font-size:1.5
 }
 
 .home__cv {
