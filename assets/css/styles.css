@@ -386,6 +386,19 @@ img {
 /*=============== BUTTON ===============*/
 
 /*=============== ABOUT ===============*/
+.about{
+  position: relative;
+}
+
+.about__container{
+  row-gap: 3rem;
+  overflow-y: clip;
+}
+
+.about__data .section__title{
+  margin-bottom: 1.5rem;
+  text-align: initial;
+}
 
 /*=============== PROJECTS ===============*/
 
@@ -472,6 +485,7 @@ img {
     height: 450px;
     bottom: 2rem;
     filter: blur(50px);
+    
   }
   .home__shadow {
     width: 700px;
