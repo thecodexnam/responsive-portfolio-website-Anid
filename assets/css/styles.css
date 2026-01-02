@@ -498,7 +498,7 @@ img {
     bottom: 0;
 }
 
-.projects__number, .projects__data, .projects_image{
+.projects__number, .projects__data, .projects__image{
   position: relative;
   z-index: 1;
 }
@@ -558,10 +558,11 @@ img {
   /* opacity: 0;
   pointer-events: none; */
   transition: box-shadow .4s, opacity .4s;
-
-
+  
   /* Fixing the arrow button is left */
-}
+} 
+
+
 
 
 /* Swiper class */
