@@ -623,6 +623,11 @@ img {
     width: 220px;
     height: 220px;
   }
+
+  .projects__card{
+    padding-inline: 1rem;
+
+  }
 }
 
 /* For medium devices */
@@ -641,6 +646,15 @@ img {
   .about__data .section__title {
     text-align: center;
   }
+
+  :is(.projects) .section__title{
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .projects__card{
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -650,7 +664,7 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1150px){
   .container {
     margin-inline: auto;
   }
@@ -769,6 +783,8 @@ img {
     height: 600px;
     bottom: 0;
   }
+
+  
 }
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
